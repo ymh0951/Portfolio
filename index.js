@@ -471,56 +471,56 @@ $(document).ready(function(){
             transitionDelay: '0s',
         })
     });
-        // 헤라
-        $('.portfolio').eq(8).hover(function(){
-            $('.portfolio>img').eq(33).animate({
-                left: 0,
-            }, 100);
-            $('.portfolio>img').eq(33).css({
-                transitionDelay: '0s',
-            });
-            $('.portfolio>img').eq(34).animate({
-                left: 0,
-            }, 100);
-            $('.portfolio>img').eq(34).css({
-                transitionDelay: '0.3s',
-            });
-            $('.portfolio>img').eq(35).animate({
-                left: 0,
-            }, 100);
-            $('.portfolio>img').eq(35).css({
-                transitionDelay: '0.6s',
-            });
-            $('.portfolio_text').eq(8).animate({
-                left: 0,
-            }, 100)
-            $('.portfolio_text').eq(8).css({
-                transitionDelay: '0.9s',
-            })
-        }, function(){
-            $('.portfolio>img').eq(33).animate({
-                left: '100%',
-            }, 100);
-            $('.portfolio>img').eq(33).css({
-                transitionDelay: '0s',
-            });
-            $('.portfolio>img').eq(34).animate({
-                left: '100%',
-            }, 100);
-            $('.portfolio>img').eq(34).css({
-                transitionDelay: '0s',
-            });
-            $('.portfolio>img').eq(35).animate({
-                left: '100%',
-            }, 100);
-            $('.portfolio>img').eq(35).css({
-                transitionDelay: '0s',
-            });
-            $('.portfolio_text').eq(8).animate({
-                left: '100%',
-            }, 100)
-            $('.portfolio_text').eq(8).css({
-                transitionDelay: '0s',
-            })
+    // 헤라
+    $('.portfolio').eq(8).hover(function(){
+        $('.portfolio>img').eq(33).animate({
+            left: 0,
+        }, 100);
+        $('.portfolio>img').eq(33).css({
+            transitionDelay: '0s',
         });
+        $('.portfolio>img').eq(34).animate({
+            left: 0,
+        }, 100);
+        $('.portfolio>img').eq(34).css({
+            transitionDelay: '0.3s',
+        });
+        $('.portfolio>img').eq(35).animate({
+            left: 0,
+        }, 100);
+        $('.portfolio>img').eq(35).css({
+            transitionDelay: '0.6s',
+        });
+        $('.portfolio_text').eq(8).animate({
+            left: 0,
+        }, 100)
+        $('.portfolio_text').eq(8).css({
+            transitionDelay: '0.9s',
+        })
+    }, function(){
+        $('.portfolio>img').eq(33).animate({
+            left: '100%',
+        }, 100);
+        $('.portfolio>img').eq(33).css({
+            transitionDelay: '0s',
+        });
+        $('.portfolio>img').eq(34).animate({
+            left: '100%',
+        }, 100);
+        $('.portfolio>img').eq(34).css({
+            transitionDelay: '0s',
+        });
+        $('.portfolio>img').eq(35).animate({
+            left: '100%',
+        }, 100);
+        $('.portfolio>img').eq(35).css({
+            transitionDelay: '0s',
+        });
+        $('.portfolio_text').eq(8).animate({
+            left: '100%',
+        }, 100)
+        $('.portfolio_text').eq(8).css({
+            transitionDelay: '0s',
+        })
+    });
 }); // end
